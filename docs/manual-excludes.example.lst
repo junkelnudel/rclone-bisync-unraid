@@ -1,0 +1,19 @@
+# Manual exclude list – template
+# ------------------------------
+# When present, this file is passed to rclone bisync via --exclude-from.
+# It is meant for PERMANENT, deliberate excludes (as opposed to the
+# automatically maintained *.forbidden-deletes.lst, which the script fills itself).
+#
+# Install per job:
+#   cp manual-excludes.example.lst \
+#      /mnt/user/appdata/rclone-bisync/state/<REMOTE_NAME>.manual-excludes.lst
+#
+# Syntax: rclone filter patterns, one pattern per line. Examples:
+
+# Exclude entire folders:
+# /old_archive/**
+# **/Cache/**
+
+# Single file types:
+# *.tmp
+# **/*.bak
