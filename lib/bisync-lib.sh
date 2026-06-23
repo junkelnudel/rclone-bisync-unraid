@@ -3,8 +3,7 @@
 # RCLONE BISYNC – SHARED LIBRARY
 # ==============================================================================
 #
-# This file contains the complete sync logic that was previously duplicated in
-# each child script. Job scripts only define their few own variables
+# Job scripts only define their few own variables
 # (LOCAL_DIR, REMOTE_NAME, bandwidth profile, excludes) and call `bisync_main`
 # at the end.
 #
