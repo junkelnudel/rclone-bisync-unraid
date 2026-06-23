@@ -183,4 +183,4 @@ reusable. PRs for additional backends are welcome.
 
 ## License
 
-MIT – see [LICENSE](LICENSE).
+GNU General Public License v3.0 – see [LICENSE](LICENSE).
